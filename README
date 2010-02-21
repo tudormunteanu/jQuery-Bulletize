@@ -2,13 +2,14 @@ For more info visit: http://bit.ly/9BUxIb
 Odeon Consulting Group 
 http://www.od-eon.com
 
+Version 0.1
 
-Bulletize will convert a <select> into a list of bullets, each bullet representing an <option> inside the <select>. This can be used to make forms easier to fill in.
+Bulletize will convert a &lt;select&gt; into a list of bullets, each bullet representing an &lt;option&gt; inside the &lt;select&gt;. This can be used to make forms easier to fill in.
 
-Events can still be binded to the <select>, for example .change(). I have used the change() event on one of our projects to load trough AJAX a different section of the page, based on what option has been selected.
+Events can still be binded to the &lt;select&gt;, for example .change(). I have used the change() event on one of our projects to load trough AJAX a different section of the page, based on what option has been selected.
 Short Docs
 
-By default each bullet will display the label of each option ( the text between <option></option> ). There are 2 ways to control the display:
+By default each bullet will display the label of each option ( the text between &lt;option&gt;&lt;/option&gt; ). There are 2 ways to control the display:
 
     * showLabel ( by default is true ) - this triggers the display of the label
     * showIndexNo ( by default is false ) - when this is true, it displays a number inside the bullet. This number is the position of the option.

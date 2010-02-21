@@ -1,4 +1,5 @@
 // 
+// Version 0.1
 // jQuery Bulletize 
 // Plugin that transforms each <option> from a <select> into a list of clickable <a>
 //
