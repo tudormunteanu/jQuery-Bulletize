@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+		<title>jQuery Bulletize</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="./jquery.bulletize.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+					$('select[name="cities"]').bulletize();
+					$('select[name="countries"]').bulletize({ showLabel: false, showIndexNo: true });
+					$('select[name="cars"]').bulletize({ showLabel: false, showIndexNo: false });
+
+			});
+		</script>
+		<link rel="stylesheet" type="text/css" href="./bulletize.css" />   
+	</head>
+	<body>
+		<form action="." method="post">
+			<div>
+				<select name="cities">
+					<option value="sf">San Francisco</option>
+					<option value="la">Los Angeles</option>
+					<option value="ny">New York</option>
+				</select>
+			</div>
+			<div>
+				<select name="countries">
+					<option value="usa">USA</option>
+					<option value="singapore">Singapore</option>
+					<option value="uk">United Kingdom</option>
+				</select>
+			</div>
+			<div>
+				<select name="cars">
+					<option value="bmw">BMW</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="aston">Aston Martin</option>
+				</select>
+			</div>
+		</form>
+
+	</body>
+</html>

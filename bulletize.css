@@ -1,0 +1,36 @@
+/*
+ * jQuery Bulletize */
+div.bulletized{
+	height: auto;
+}
+
+div.bulletized a{ 
+	background: #999;
+	color: white;
+	display: block;
+	float: left;
+	line-height: 200%;
+	margin: 5px;
+	padding: 0 10px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+div.bulletized a.current{ 
+	background: #333;
+}
+/* END jQuery Bulletize */
+
+
+/*
+ * General styles */
+
+form div{
+	clear: both;
+	display: block;
+	margin: 0 0 50px 0;
+}
+
+/* END General styles */
